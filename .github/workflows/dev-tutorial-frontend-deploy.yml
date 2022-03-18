@@ -1,8 +1,9 @@
-name: ENV - Tutorial Frontend Deploy
+name: DEV - Tutorial Frontend Deploy
 
 on:
   repository_dispatch:
     types: [dpu-tutorial-frontend-cd-dev]
+  workflow_dispatch:
 
 env:
   REPOSITORY: "alias-th/dpu-tutorial-frontend"
